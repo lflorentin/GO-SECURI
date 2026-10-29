@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <MenuBar prefHeight="35.0" prefWidth="398.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="GO-SECURI">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: linear-gradient(#659224, #659224),        radial-gradient(center 50% -40%, radius 200%, #a8ee36 45%, #659224 50%);" VBox.vgrow="ALWAYS">
+         <children>
+            <Button contentDisplay="CENTER" layoutX="43.0" layoutY="34.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="147.0" style="-fx-background-color: rgba(0,0,0,0.08), linear-gradient(#5a61af, #51536d), linear-gradient(#e4fbff 0%,#cee6fb 10%, #a5d3fb 50%, #379ec1 51%, #d5faff 100%); -fx-background-insets: 0 0 -1 0,0,1; -fx-background-radius: 5,5,4; -fx-padding: 3 30 3 30; -fx-text-fill: #242d35; -fx-font-size: 14px;" text="Déconnexion">
+               <font>
+                  <Font name="Avenir Heavy Oblique" size="13.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView blendMode="SRC_ATOP" fitHeight="165.0" fitWidth="163.0" layoutX="446.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+            <Pane layoutX="446.0" layoutY="25.0" prefHeight="165.0" prefWidth="163.0" style="-fx-background-color: #379ec1;" />
+            <ListView layoutX="59.0" layoutY="113.0" prefHeight="228.0" prefWidth="248.0" style="-fx-background-color: #379ec1;" />
+            <CheckBox layoutX="82.0" layoutY="165.0" mnemonicParsing="false" text="Gant d'intervention" />
+            <CheckBox layoutX="82.0" layoutY="199.0" mnemonicParsing="false" text="Ceinture de sécurité tactique" />
+            <CheckBox layoutX="82.0" layoutY="227.0" mnemonicParsing="false" text="Détecteur de métaux" />
+            <CheckBox layoutX="82.0" layoutY="252.0" mnemonicParsing="false" text="Brassard de sécurité" />
+            <CheckBox layoutX="82.0" layoutY="279.0" mnemonicParsing="false" text="Lampe torche" />
+            <CheckBox layoutX="82.0" layoutY="306.0" mnemonicParsing="false" text="CheckBox" />
+            <CheckBox layoutX="82.0" layoutY="133.0" mnemonicParsing="false" text="Mousqueton" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

@@ -1,0 +1,9 @@
+Main.class
+EssentialClasses/User.class
+EssentialClasses/Item.class
+FXControllers/StockPageController.class
+FXControllers/LoginPageController.class
+Utils/getEventSourceIdJFX.class
+Utils/Utils.class
+Services/FirebaseInitialize.class
+Services/FirebaseService.class
